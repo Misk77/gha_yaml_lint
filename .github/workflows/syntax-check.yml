@@ -4,7 +4,6 @@ name: "Syntax validation"
 on:
   pull_request:
     branches:
-      - master
       - main
 
 concurrency:
