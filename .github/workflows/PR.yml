@@ -10,8 +10,6 @@ name: Lint Code Base
 # Start the job on all push #
 #############################
 on:
-  push:
-    branches-ignore: [master, main]
     # Remove the line above to run when pushing to master or main
   pull_request:
     branches: [master, main]
@@ -33,7 +31,7 @@ jobs:
       # Checkout the code base #
       ##########################
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
           # Full git history is needed to get a proper
           # list of changed files within `super-linter`
@@ -48,4 +46,3 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
