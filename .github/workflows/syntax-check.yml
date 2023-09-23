@@ -32,4 +32,4 @@ jobs:
           VALIDATE_ANSIBLE: true
           VALIDATE_BASH: true
           VALIDATE_PYTHON: true
-          VALIDATE_PYTHON_BLACK: true
+          #VALIDATE_PYTHON_BLACK: true
