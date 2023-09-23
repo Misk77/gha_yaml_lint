@@ -2,7 +2,7 @@
 name: PR
 on:
   workflow_run:
-    workflows: ["Syntax validation"]
+    workflows: ["Syntax_validation"]
   
 
 concurrency:
