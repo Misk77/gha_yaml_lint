@@ -3,7 +3,8 @@ name: PR
 on:
   workflow_run:
     workflows: ["Syntax_validation"]
-  
+  pull_request:
+    branches: [main]
 
 concurrency:
   group: ${{ github.ref }}
