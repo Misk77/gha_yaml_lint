@@ -18,7 +18,7 @@
      register: "ping2_out"
    - name: "debug output"
      debug: var=ping2_out.stdout_lines
-  
+
    - name: "ping google dns - shell"
      shell: "ping 8.8.8.8 -c 3"
      register: "ping3_out"
