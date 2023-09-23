@@ -24,3 +24,4 @@
      register: "ping3_out"
    - name: "debug output"
      debug: var=ping3_out.stdout_lines
+# test
