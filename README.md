@@ -42,7 +42,9 @@ E.g
 > ansible-lint  --config-file=/home/misk/FTP/Github/gha/gha_yaml_lint/.github/workflows/TEMPLATES/.ansible-lint.yml  ansible/ansible-code.yaml
 
 
-
+Super-lint badge:
+e.g
+[![GitHub Super-Linter](https://github.com/Misk77/gha_yaml_lint/actions/workflows/syntax-check.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
 
 
