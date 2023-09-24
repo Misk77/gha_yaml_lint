@@ -9,7 +9,7 @@
 
    - name: "ping google dns- builtin.command"
      ansible.builtin.command: "ping 8.8.8.8 -c 3"
-     register: "ping1_out"
+      register: "ping1_out"
    - name: "debug output"
      debug: var=ping1_out.stdout_lines
 
