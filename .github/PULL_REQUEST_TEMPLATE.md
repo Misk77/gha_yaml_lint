@@ -1,4 +1,4 @@
-Maek sure you have check this list
+MAke sure you have check this list
 
 
 - [ ] a task list item
@@ -6,3 +6,7 @@ Maek sure you have check this list
 - [ ] normal **formatting**, @mentions, #1234 refs
 - [ ] incomplete
 - [x] completed
+
+Also read this for production realease:
+https://www.bredbandskollen.se/
+
