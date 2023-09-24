@@ -25,12 +25,14 @@ E.g code:
 
 
 NOTES:
-All VALIDATE [LANGUAGE]: is set to true as default
-If you set a specific LANGUAGE to be validate, all other lagague will be set to false = they will not be lint and need to be specific specified
+All VALIDATE [LANGUAGE]: is set to true as default  
+If you set a specific LANGUAGE to be validate, all other lagague will be set to false = they will not be lint and need to be specific specified  
+VALIDATE_ALL_CODEBASE:  
+- Here we can choose if whole repo should be lint all the time
 VALIDATE_ALL_CODEBASE:
-Here we can choose if whole repo should be lint all the time
-VALIDATE_ALL_CODEBASE_ true  = default all repo will always be lint
-VALIDATE_ALL_CODEBASE: false = Will only lint new or edited files for each run
+  -  true  = default all repo will always be lint
+VALIDATE_ALL_CODEBASE:
+  - false = Will only lint new or edited files for each run
 FILTER_REGEX_INCLUDE:
 If set, , t it will only check directory or files that is set as values
 Default - If not set, the default is, all,  if will include whole repo
