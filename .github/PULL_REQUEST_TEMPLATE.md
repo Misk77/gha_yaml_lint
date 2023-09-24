@@ -1,4 +1,4 @@
-MAke sure you have check this list
+Make sure you have check this list
 
 
 - [ ] a task list item
@@ -7,6 +7,8 @@ MAke sure you have check this list
 - [ ] incomplete
 - [x] completed
 
-Also read this for production realease:
-https://www.bredbandskollen.se/
+Also read this for production release:
+[ production release ](https://www.bredbandskollen.se/
+)[](https://www.bredbandskollen.se/
+)https://www.bredbandskollen.se/
 
