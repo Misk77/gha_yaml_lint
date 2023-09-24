@@ -1,6 +1,5 @@
 [![GitHub Super-Linter](https://github.com/Misk77/gha_yaml_lint/actions/workflows/syntax-check.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-
 ### Testing gha yamlint
 # gha_yaml_lint
 
