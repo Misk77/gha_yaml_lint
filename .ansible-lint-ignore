@@ -1,7 +1,0 @@
-# This file contains ignores rule violations for ansible-lint
-ansible/ansible-code.yaml command-instead-of-shell
-ansible/ansible-code.yaml fqcn[action-core]
-ansible/ansible-code.yaml name[casing]
-ansible/ansible-code.yaml name[play]
-ansible/ansible-code.yaml no-changed-when
-ansible/ansible-code.yaml no-free-form
