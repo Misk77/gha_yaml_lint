@@ -52,5 +52,3 @@ use_default_rules: true
 # Set verbosity #
 #################
 verbosity: 1
-exclude_paths:	
- - ansible/ansible-code.yaml
