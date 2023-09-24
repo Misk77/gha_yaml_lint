@@ -1,0 +1,27 @@
+---
+- hosts: localhost
+  tasks:
+   - name: "just execute a ls -lrt command"
+     shell: "ls -lrt"
+     register: "ls_out"
+   - name: "debug output"
+     debug: var=ls_out.stdout_lines
+
+   - name: "ping google dns- builtin.command"
+     ansible.builtin.command: "ping 8.8.8.8 -c 3"
+     register: "ping1_out"
+   - name: "debug output"
+     debug: var=ping1_out.stdout_lines
+
+   - name: "ping google dns-builtin.shell"
+     ansible.builtin.shell: "ping 8.8.8.8 -c 3"
+     register: "ping2_out"
+   - name: "debug output"
+     debug: var=ping2_out.stdout_lines
+
+   - name: "ping google dns - shell"
+     shell: "ping 8.8.8.8 -c 3"
+     register: "ping3_out"
+   - name: "debug output"
+     debug: var=ping3_out.stdout_lines
+# test
