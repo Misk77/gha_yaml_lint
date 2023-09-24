@@ -7,6 +7,8 @@ Make sure you have check this list
 - [ ] incomplete
 - [x] completed
 
-Also read this for production realease:
-https://www.bredbandskollen.se/
+Also read this for production release:
+[ production release ](https://www.bredbandskollen.se/
+)[](https://www.bredbandskollen.se/
+)https://www.bredbandskollen.se/
 
