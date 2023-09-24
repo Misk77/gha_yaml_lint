@@ -1,4 +1,4 @@
-MAke sure you have check this list
+Make sure you have check this list
 
 
 - [ ] a task list item
